@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qprune"
+version = "1.0.0"
+description = "Question conditioned visual token pruning for LLaVA"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+  "torch==2.1.2",
+  "transformers==4.37.2",
+  "tokenizers==0.15.1",
+  "accelerate==0.21.0",
+  "sentencepiece==0.1.99",
+  "shortuuid",
+  "Pillow",
+  "numpy",
+  "tqdm",
+]
+
+[project.urls]
+Repository = "https://github.com/xiaorong-ui/Qprune"
+
+[tool.setuptools.packages.find]
+include = ["llava*"]
