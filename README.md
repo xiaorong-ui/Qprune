@@ -2,9 +2,9 @@
 
 QPrune is a question conditioned visual token pruning method for LLaVA. This repository contains the method implementation and a generic evaluation entry point. It is based on the [CDPruner](https://github.com/Theia-4869/CDPruner) LLaVA codebase (Apache 2.0); QPrune changes are primarily in `llava/model/llava_arch.py`.
 
-## Status
+## Scope
 
-This is a source release draft. The code has been separated from private checkpoints, datasets, experiment outputs, and machine specific launch scripts. Reproduction instructions and benchmark manifests need a final review before publication.
+This repository contains the QPrune method implementation and a generic LLaVA evaluation entry point. Model checkpoints, benchmark data, and generated results are not included; download and configure them separately for evaluation.
 
 ## Setup
 
